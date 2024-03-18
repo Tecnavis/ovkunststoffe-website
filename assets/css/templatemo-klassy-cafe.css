@@ -1214,13 +1214,29 @@ reservation
   background-size: cover;
 }
 
-#reservation .phone,
+/* #reservation .phone{
+  background-color: #fff;
+  border-radius: 5px;
+  
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+} */
 #reservation .message {
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
+  height: auto;
   padding: 0px 0px 20px 0px;
 }
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  #reservation .message {
+    padding: 0px 0px 10px 0px; /* Adjusted padding for smaller screens */
+    margin-bottom: 30px;
+  }
+}
+
 
 #reservation .phone i,
 #reservation .message i {
