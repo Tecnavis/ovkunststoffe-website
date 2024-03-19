@@ -667,6 +667,13 @@ banner
   width: 100%;
   height: 100%;
 }
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  #top .left-content {
+    height: 300px; /* Adjust the height as needed */
+  }
+}
+
 
 #top .left-content .inner-content {
   position: absolute;
@@ -1209,6 +1216,7 @@ reservation
 #reservation {
   margin-top: 120px;
   padding: 120px 0px;
+  /* background-color: #8482fc; */
   background-image: url(../images/reservation-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -1610,7 +1618,7 @@ responsive
 
 #preloader {
   overflow: hidden;
-  background-color: #ff0000;
+  background-color: #8482fc;
   left: 0;
   right: 0;
   top: 0;
