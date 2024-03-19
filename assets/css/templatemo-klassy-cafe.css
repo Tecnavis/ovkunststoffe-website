@@ -657,7 +657,7 @@ banner
 }
 
 #top .left-content {
-  background-color: #ff0000;
+  background-color: #8482fc;
   /* background-image: url(../images/top-left-bg.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
@@ -1487,7 +1487,7 @@ footer
 footer {
   margin-top: 60px;
   padding: 50px 0px;
-  background-color: #ff0000;
+  background-color: #8482fc;
 }
 
 footer .left-text-content p {
