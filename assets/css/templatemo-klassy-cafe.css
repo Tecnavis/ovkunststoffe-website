@@ -1656,13 +1656,13 @@ responsive
 }
 
 #preloader .jumper > div:nth-child(2) {
-  -webkit-animation-delay: 0.33333s;
-  animation-delay: 0.33333s;
+  -webkit-animation-delay: 0.666s;
+  animation-delay: 0.666s;
 }
 
 #preloader .jumper > div:nth-child(3) {
-  -webkit-animation-delay: 0.66666s;
-  animation-delay: 0.66666s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 @-webkit-keyframes jumper {
