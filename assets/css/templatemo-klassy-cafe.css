@@ -1494,15 +1494,15 @@ footer
 */
 
 footer {
-  margin-top: 60px;
-  padding: 50px 0px;
+  margin-top: 0px;
+  padding: 0px 0px;
   background-color: #8482fc;
 }
 
 footer .left-text-content p {
-  margin-top: 5px;
+  margin-top: 50px;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   text-align: right;
 }
 
