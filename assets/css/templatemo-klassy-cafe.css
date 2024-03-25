@@ -753,7 +753,7 @@ banner
 /* ==== Slider Style === */
 .Modern-Slider .item .img-fill{
   height:100%;
-  max-height: 700px;
+  max-height: 500px;
   background:#000;
 }
 
