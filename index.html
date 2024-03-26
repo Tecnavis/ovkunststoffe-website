@@ -28,7 +28,7 @@ https://templatemo.com/tm-558-klassy-cafe
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <style>
 
         /* For mobile devices */
@@ -768,10 +768,10 @@ https://templatemo.com/tm-558-klassy-cafe
             <div class="row" >
                 <div class="col-lg-6 align-self-center" >
                     <div class="left-text-content" >
-                            <div class="section-heading" >
-                                <h6>Contact Us</h6>
-                                <h2>"Let's make things happen. Get in touch</h2>
-                            </div>
+                        <div class="section-heading" >
+                            <h6>Contact Us</h6>
+                            <h2>"Let's make things happen. Get in touch</h2>
+                        </div>
                         <!-- <p>"Your go-to source for premium plastic raw materials. Quality assured, every time."</p> -->
                         <div class="row" >
 
@@ -823,7 +823,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <form id="submit-form" action="" method="post">
+                        <form id="contact" action="" method="post">
                           <div class="row">
                             <div class="col-lg-12">
                                 <h4>Get in Touch</h4>
@@ -1219,26 +1219,7 @@ https://templatemo.com/tm-558-klassy-cafe
     <script src="assets/js/slick.js"></script> 
     <script src="assets/js/lightbox.js"></script> 
     <script src="assets/js/isotope.js"></script> 
-    <script>
-        $("#submit-form").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbyX_hB_VYOYS_Kof8HhsnuuP_i6Hb53ROFbSGyNfARidtW7-4rUIxjsQq47FCDZIjQ-/exec",
-                data:$("#submit-form").serialize(),
-                method:"post",
-                success:function (response){
-                    // alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error:function (err){
-                    alert("Something Error")
     
-                }
-            })
-        })
-    </script>
-
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
     <script>
