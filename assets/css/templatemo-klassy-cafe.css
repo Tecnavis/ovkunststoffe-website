@@ -1234,8 +1234,9 @@ reservation
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
-  height: auto;
-  padding: 0px 0px 20px 0px;
+  height: 200px;
+  /* padding: 0px 0px 20px 0px; */
+  padding: ;
 }
 
 /* Media query for smaller screens */
