@@ -1514,8 +1514,10 @@ footer
 
 footer {
   margin-top: 0px;
-  padding: 0px 0px;
+  /* padding: 0px 0px; */
   background-color: #8482fc;
+  height: auto;
+  
 }
 
 footer .left-text-content p {
