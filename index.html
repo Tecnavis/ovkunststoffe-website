@@ -124,41 +124,34 @@ https://templatemo.com/tm-558-klassy-cafe
 }
 
 
-
-
 .slider123 {
         margin-top: 70px;
-        /* background-color: #8482fc; */
         padding: 8em 2em;
         background-image: url('./assets/images/blackbg.jpg');
-    
         background-size: cover;
         background-position: center;
-      }
+        overflow: hidden; /* Added */
+    }
 
-      .slider123 .new-slide-track {
-        width: 100%;
+    .slider123 .new-slide-track {
         display: flex;
         gap: 3em;
-        overflow: hidden;
-      }
+        animation: scroll 20s linear infinite; /* Adjusted duration */
+    }
 
-     
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
     }
-    100% {
-        transform: translateX(-100%); /* Adjusted to repeat images */
-    }
-}
-      .slider123 .new-slide img {
+
+    .slider123 .new-slide img {
         width: 250px;
         height: 100px;
-        animation: scroll 6s linear infinite; /* Adjusted duration */
-}
-      
-    
+    }
 
 
 
