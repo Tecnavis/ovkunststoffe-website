@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+#scroller{
+  width: 10000%;
+}
+#scroller.ready > *{
+  display: inline-block;
+  float:left;
+  overflow: hidden;
+
+  webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+
+
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+
+
+  -webkit-animation-name: marginator;
+  animation-name: marginator;
+
+
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+#scroller:hover > *{
+
+
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+@-webkit-keyframes marginator {
+  0% {
+    -webkit-transform: translate(0,0);
+    -webkit-transform: translate3d(0,0,0);
+  }
+  100% {
+    -webkit-transform: translate(-100%,0);
+    -webkit-transform: translate3d(-100%,0,0);
+  }
+}
+
+@keyframes marginator {
+  0% {
+
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  100% {
+
+
+    -webkit-transform: translate(-100%,0);
+    transform: translate(-100%,0);
+
+
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+#scroller-wrapper{
+  overflow: hidden;
+}
+
+    </style>
+</head>
+<body>
+    <div id="scroller-wrapper">
+        <div id="scroller">
+          <div>
+            <img src="https://placehold.it/350x150">
+            <img src="https://placehold.it/351x150">
+            <img src="https://placehold.it/352x150">
+            <img src="https://placehold.it/353x150">
+            <img src="https://placehold.it/354x150">
+            <img src="https://placehold.it/355x150">
+            <img src="https://placehold.it/356x150">
+          </div>
+        </div>
+      </div>
+
+
+
+      <script>
+        $(function () {
+  var $first=$('#scroller>:first-child');
+  $('#scroller').width($first.outerWidth(true));
+  $first.clone(true).appendTo('#scroller');
+  $('#scroller').addClass('ready');
+ })
+
+      </script>
+</body>
+</html>
