@@ -736,20 +736,6 @@
     <script src="assets/js/custom.js"></script>
                         
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var form = document.getElementById("contact");
-            var submitButton = document.getElementById("form-submit");
-    
-            form.addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevent the default form submission
-
-            // Show the success message
-            // alert("Your enquiry was successfully submitted");
-            window.location.reload()
-        });
-        });
-    </script>
-    <script>
 
         $(function() {
             var selectedClass = "";
@@ -800,14 +786,14 @@ $(this).addClass("active");
 
 
 <script>
-    $("#contact-form").submit((e)=>{
+    $("#contact").submit((e)=>{
         e.preventDefault()
         $.ajax({
-            url:"https://script.google.com/macros/s/AKfycbzo2BPMwSbZQNqjUWnoUgKGGAcqtCKRkNHfRSyc-GJjjWsaGihU0DwQ-4Z9HE7jYdM8TQ/exec",
-            data:$("#contact-form").serialize(),
+            url:"https://script.google.com/macros/s/AKfycbxwx5uJi-6jBAO2sRKR8-3dbK-pX6y3aD4qaEQ_XO_O_bz473DXazrosczF4M5yGfh4/exec",
+            data:$("#contact").serialize(),
             method:"post",
             success:function (response){
-                alert("Contact Form submitted successfully")
+                // alert("Contact Form submitted successfully")
                 window.location.reload()
                 //window.location.href="https://google.com"
             },
