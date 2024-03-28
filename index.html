@@ -9,8 +9,10 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <title>ovkunststoffe</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>OV Kunststoffe</title>
 <!--
     
 TemplateMo 558 Klassy Cafe
@@ -124,8 +126,36 @@ https://templatemo.com/tm-558-klassy-cafe
 }
 
 
+   /* body {
+  background-color: #333;
+} */
 
+.slide img {
+  width: 250px;
+  /* height: 100px; */
+  animation: scroll 60s linear infinite;
+}
 
+.slide-track {
+  width: 100%;
+ 
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+  
+}
+
+.slider {
+  margin-top: 70px;
+  background-color: white;
+  /* padding: 8em 2em; */
+  
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+}
 
     </style>
 
@@ -206,13 +236,9 @@ https://templatemo.com/tm-558-klassy-cafe
                         <div class="inner-content">
                             <!-- <h4>ovkunststoffe</h4> -->
                            
-                            <h6>
-                                
-                                Welcome to OV Kunststoffe
-                                
-                                <br> </h6>
-
-                                <p style="font-family: 'Garamond', serif; font-weight: bold; color: #fff;"> your go-to for premium German plastic solutions. Serving clients across the Middle East, India, Africa, and Europe with tailored products.</p>
+                            <h6>Welcome to <br>OV Kunststoffe</h6>
+                            <br>
+                                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; color: #fff;"> your go-to for premium German plastic solutions. Serving clients across the Middle East, India, Africa, and Europe with tailored products.</p>
 
                             <div class="main-white-button scroll-to-section">
                                 <a href="#reservation">Send Inquiry</a>
@@ -333,20 +359,14 @@ https://templatemo.com/tm-558-klassy-cafe
 </section>
 <section>
     
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
 
 
 <div id="products">
     
-
-
  <div class="container">
      <div class="section-heading">
-                <h6 style="margin-top: 60px;">"Welcome to Our Gallery"</h6>
-                <h2>  "Embark on a Journey of Material Marvels - Explore Our Gallery"</h2>
+                <h6 style="margin-top: 60px;">"Welcome to Our Product Gallery"</h6>
+                <h2>  "Embark on a Journey of Material Marvels - Explore Our Products"</h2>
             </div>
         <div class="row">
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -807,14 +827,6 @@ https://templatemo.com/tm-558-klassy-cafe
 </section>
 
 
-
-
-
-
-
-
-
-
 <section class="section" id="about">
     <div class="container">
         <div class="row">
@@ -850,43 +862,6 @@ https://templatemo.com/tm-558-klassy-cafe
     </div>
 </section>
 
-
-
-
-
-<style>
-
-    /* body {
-  background-color: #333;
-} */
-
-.slide img {
-  width: 250px;
-  /* height: 100px; */
-  animation: scroll 60s linear infinite;
-}
-
-.slide-track {
-  width: 100%;
- 
-  display: flex;
-  gap: 3em;
-  overflow: hidden;
-  
-}
-
-.slider {
-  margin-top: 70px;
-  background-color: white;
-  /* padding: 8em 2em; */
-  
-}
-
-@keyframes scroll {
-  0% {transform: translateX(0);}
-  100% {transform: translatex(-1000%)}
-}
-</style>
 
 <div id="brands-section">
 <section class="sliderlogo" id="slider-logo">
@@ -1023,16 +998,17 @@ https://templatemo.com/tm-558-klassy-cafe
                   <!-- <p>"Your go-to source for premium plastic raw materials. Quality assured, every time."</p> -->
 <div class="row" style=" padding: 30px;">
 
-    <div class="phone col-lg-6" style="margin-bottom: 20px;  border: solid black; border-width: 6px;  ;">
+    <div class="phone col-lg-6" style="margin-bottom: 20px;  border: solid black; border-width: 6px;  color: black;">
         <!-- <div class="message" style="border: solid black;"> -->
         <i class="fa fa-phone"></i>
         <h4>
             <u>UAE</u><br><br>
-            <a href="tel:00971042996378" >+971 042 996 378</a>,<br><br> 
-            <a href="tel:009710506556826">+971 050 655 6826</a><br><br>
-            <u>INDIA</u><br><br><br>
-            <a href="tel:00919605750005">+91 960 575 0005</a>,<br> <br>
-            <a href="tel:00919544052717">+91 954 405 2717</a>
+            <a href="tel:00971042996378" style="text-decoration: none; " >+971 042 996 378</a><br><br>
+            <a href="tel:009710506556826"  style="text-decoration: none;">+971 050 655 6826</a><br><br>
+            <br><br>
+            <u>INDIA</u><br><br>
+            <a href="tel:00919605750005"  style="text-decoration: none;">+91 960 575 0005</a><br><br> 
+            <a href="tel:00919544052717"  style="text-decoration: none;">+91 954 405 2717</a>
         </h4>
         
         <span><a href="#"></a><br><a href="#"></a></span>
@@ -1044,9 +1020,8 @@ https://templatemo.com/tm-558-klassy-cafe
         <i class="fa fa-map-marker"></i>
         <h4>
             <u>UAE</u><br><br>
-            Post box 77157,<br>
-            Ummul Ramoul , <br>Rashidiya Office No 5,<br> Dubai UAE
-        </h4>
+            Post box 77157, Ummul Ramoul , <br>Rashidiya Office No 5,<br> Dubai UAE
+        </h4><br>
         <h4>
             <u>INDIA</u><br><br>
             V studio Ayyanthole,<br> Trichur 680003<br>
@@ -1076,8 +1051,8 @@ https://templatemo.com/tm-558-klassy-cafe
                     </div>
                     
                 </div>
-                <div class="col-lg-6">
-                    <div class="contact-form">
+                <div class="col-lg-6 " >
+                    <div class="contact-form"style="margin-top: 140px;">
                         <form id="contact" action="" method="post">
                             <div class="row">
                                 <div class="col-lg-12">
